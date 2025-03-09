@@ -1,0 +1,1272 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="img/png" href="img/logo.png">
+    <title>100Citas</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt="" width="100"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="pages/libre.html">Al Aire Libre</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="pages/culturales.html">Culturales/Educativas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="pages/entretenimiento.html">Entretenimiento</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="pages/gastronomicas.html">Gastronomicas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="pages/creativas.html">Creativas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="pages/sociales.html">Sociales/Familiares</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="pages/relajacion.html">Relajacion/Bienestar</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="pages/domesticas.html">Domesticas/Practicas</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="row">
+      <div class="col-6 col-md-3 mt-2">
+          <div class="card h-100">
+              <img src="../img/entretenimiento/cine.jpg" class="card-img-top" alt="..." style="height: 200px; object-fit: cover;">
+              <div class="card-body d-flex flex-column">
+                  <h5 class="card-title">Ir al cine</h5>
+                  <div class="d-flex"> 
+                      <a class="btn btn-sm rounded-5 btn-danger mx-2">1</a>
+                      <input type="checkbox" class="btn-check" id="btn-check-1-outlined" autocomplete="on">
+                      <label class="btn btn-outline-danger w-100" for="btn-check-1-outlined">Completado</label>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="col-6 col-md-3 mt-2">
+          <div class="card h-100">
+              <img src="../img/gastronomica/comer.jpg" class="card-img-top" alt="..." style="height: 200px; object-fit: cover;">
+              <div class="card-body d-flex flex-column">
+                  <h5 class="card-title">Salir a comer</h5>
+                  <div class="d-flex"> 
+                      <a class="btn btn-sm rounded-5 btn-danger mx-2">2</a>
+                      <input type="checkbox" class="btn-check" id="btn-check-123-outlined" autocomplete="on">
+                      <label class="btn btn-outline-danger w-100" for="btn-check-123-outlined">Completado</label>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="col-6 col-md-3 mt-2">
+          <div class="card h-100">
+              <img src="../img/libre/parque.jpg" class="card-img-top" alt="..." style="height: 200px; object-fit: cover;">
+              <div class="card-body d-flex flex-column">
+                  <h5 class="card-title">Ir al parque</h5>
+                  <div class="d-flex"> 
+                      <a class="btn btn-sm rounded-5 btn-danger mx-2">3</a>
+                      <input type="checkbox" class="btn-check" id="btn-check-143-outlined" autocomplete="on">
+                      <label class="btn btn-outline-danger w-100" for="btn-check-143-outlined">Completado</label>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="col-6 col-md-3 mt-2">
+          <div class="card h-100">
+              <img src="../img/libre/picnic.jpg" class="card-img-top" alt="..." style="height: 200px; object-fit: cover;">
+              <div class="card-body d-flex flex-column">
+                  <h5 class="card-title">Día de picnic</h5>
+                  <div class="d-flex"> 
+                      <a class="btn btn-sm rounded-5 btn-danger mx-2">4</a>
+                      <input type="checkbox" class="btn-check" id="btn-check-2-outlined" autocomplete="on">
+                      <label class="btn btn-outline-danger w-100" for="btn-check-2-outlined">Completado</label>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="col-6 col-md-3 mt-2">
+          <div class="card h-100">
+              <img src="../img/gastronomica/cenar.jpg" class="card-img-top" alt="..." style="height: 200px; object-fit: cover;">
+              <div class="card-body d-flex flex-column">
+                  <h5 class="card-title">Cenar en un restaurante</h5>
+                  <div class="d-flex"> 
+                      <a class="btn btn-sm rounded-5 btn-danger mx-2">5</a>
+                      <input type="checkbox" class="btn-check" id="btn-check-222-outlined" autocomplete="on">
+                      <label class="btn btn-outline-danger w-100" for="btn-check-222-outlined">Completado</label>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="col-6 col-md-3 mt-2">
+          <div class="card h-100">
+              <img src="../img/libre/viaje.jpg" class="card-img-top" alt="..." style="height: 200px; object-fit: cover;">
+              <div class="card-body d-flex flex-column">
+                  <h5 class="card-title">Viaje fuera de la ciudad</h5>
+                  <div class="d-flex"> 
+                      <a class="btn btn-sm rounded-5 btn-danger mx-2">6</a>
+                      <input type="checkbox" class="btn-check" id="btn-check-333-outlined" autocomplete="on">
+                      <label class="btn btn-outline-danger w-100" for="btn-check-333-outlined">Completado</label>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="col-6 col-md-3 mt-2">
+          <div class="card h-100">
+              <img src="../img/culturales/museo.jpg" class="card-img-top" alt="..." style="height: 200px; object-fit: cover;">
+              <div class="card-body d-flex flex-column">
+                  <h5 class="card-title">Ir a un museo</h5>
+                  <div class="d-flex"> 
+                      <a class="btn btn-sm rounded-5 btn-danger mx-2">7</a>
+                      <input type="checkbox" class="btn-check" id="btn-check-112-outlined" autocomplete="on">
+                      <label class="btn btn-outline-danger w-100" for="btn-check-112-outlined">Completado</label>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="col-6 col-md-3 mt-2">
+          <div class="card h-100">
+              <img src="../img/gastronomica/pedir.jpg" class="card-img-top" alt="..." style="height: 200px; object-fit: cover;">
+              <div class="card-body d-flex flex-column">
+                  <h5 class="card-title">Pedir cena a domicilio</h5>
+                  <div class="d-flex"> 
+                      <a class="btn btn-sm rounded-5 btn-danger mx-2">8</a>
+                      <input type="checkbox" class="btn-check" id="btn-check-332-outlined" autocomplete="on">
+                      <label class="btn btn-outline-danger w-100" for="btn-check-332-outlined">Completado</label>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="col-6 col-md-3 mt-2">
+          <div class="card h-100">
+              <img src="../img/creativas/puzzle.jpg" class="card-img-top" alt="..." style="height: 200px; object-fit: cover;">
+              <div class="card-body d-flex flex-column">
+                  <h5 class="card-title">Armar un rompecabezas</h5>
+                  <div class="d-flex"> 
+                      <a class="btn btn-sm rounded-5 btn-danger mx-2">9</a>
+                      <input type="checkbox" class="btn-check" id="btn-check-111-outlined" autocomplete="on">
+                      <label class="btn btn-outline-danger w-100" for="btn-check-111-outlined">Completado</label>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="col-6 col-md-3 mt-2">
+          <div class="card h-100">
+              <img src="../img/gastronomica/preparar.jpg" class="card-img-top" alt="..." style="height: 200px; object-fit: cover;">
+              <div class="card-body d-flex flex-column">
+                  <h5 class="card-title">Preparar un postre</h5>
+                  <div class="d-flex"> 
+                      <a class="btn btn-sm rounded-5 btn-danger mx-2">10</a>
+                      <input type="checkbox" class="btn-check" id="btn-check-443-outlined" autocomplete="on">
+                      <label class="btn btn-outline-danger w-100" for="btn-check-443-outlined">Completado</label>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="col-6 col-md-3 mt-2">
+          <div class="card h-100">
+              <img src="../img/creativas/pintar.jpg" class="card-img-top" alt="..." style="height: 200px; object-fit: cover;">
+              <div class="card-body d-flex flex-column">
+                  <h5 class="card-title">Pintar un cuadro</h5>
+                  <div class="d-flex"> 
+                      <a class="btn btn-sm rounded-5 btn-danger mx-2">11</a>
+                      <input type="checkbox" class="btn-check" id="btn-check-255-outlined" autocomplete="on">
+                      <label class="btn btn-outline-danger w-100" for="btn-check-255-outlined">Completado</label>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="col-6 col-md-3 mt-2">
+          <div class="card h-100">
+              <img src="../img/relajacion/patinar.jpg" class="card-img-top" alt="..." style="height: 200px; object-fit: cover;">
+              <div class="card-body d-flex flex-column">
+                  <h5 class="card-title">Ir a patinar</h5>
+                  <div class="d-flex"> 
+                      <a class="btn btn-sm rounded-5 btn-danger mx-2">12</a>
+                      <input type="checkbox" class="btn-check" id="btn-check-665-outlined" autocomplete="on">
+                      <label class="btn btn-outline-danger w-100" for="btn-check-665-outlined">Completado</label>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="col-6 col-md-3 mt-2">
+          <div class="card h-100">
+              <img src="../img/gastronomica/hacer.jpg" class="card-img-top" alt="..." style="height: 200px; object-fit: cover;">
+              <div class="card-body d-flex flex-column">
+                  <h5 class="card-title">Hacer galletas</h5>
+                  <div class="d-flex"> 
+                      <a class="btn btn-sm rounded-5 btn-danger mx-2">13</a>
+                      <input type="checkbox" class="btn-check" id="btn-check-555-outlined" autocomplete="on">
+                      <label class="btn btn-outline-danger w-100" for="btn-check-555-outlined">Completado</label>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="col-6 col-md-3 mt-2">
+          <div class="card h-100">
+              <img src="../img/entretenimiento/maraton.jpg" class="card-img-top" alt="..." style="height: 200px; object-fit: cover;">
+              <div class="card-body d-flex flex-column">
+                  <h5 class="card-title">Maratón de series o películas</h5>
+                  <div class="d-flex"> 
+                      <a class="btn btn-sm rounded-5 btn-danger mx-2">14</a>
+                      <input type="checkbox" class="btn-check" id="btn-check-277-outlined" autocomplete="on">
+                      <label class="btn btn-outline-danger w-100" for="btn-check-277-outlined">Completado</label>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="col-6 col-md-3 mt-2">
+          <div class="card h-100">
+              <img src="../img/libre/playa.jpg" class="card-img-top" alt="..." style="height: 200px; object-fit: cover;">
+              <div class="card-body d-flex flex-column">
+                  <h5 class="card-title">Ir a la playa</h5>
+                  <div class="d-flex"> 
+                      <a class="btn btn-sm rounded-5 btn-danger mx-2">15</a>
+                      <input type="checkbox" class="btn-check" id="btn-check-488-outlined" autocomplete="on">
+                      <label class="btn btn-outline-danger w-100" for="btn-check-488-outlined">Completado</label>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="col-6 col-md-3 mt-2">
+          <div class="card h-100">
+              <img src="../img/entretenimiento/concierto.jpg" class="card-img-top" alt="..." style="height: 200px; object-fit: cover;">
+              <div class="card-body d-flex flex-column">
+                  <h5 class="card-title">Ir a un concierto</h5>
+                  <div class="d-flex"> 
+                      <a class="btn btn-sm rounded-5 btn-danger mx-2">16</a>
+                      <input type="checkbox" class="btn-check" id="btn-check-765-outlined" autocomplete="on">
+                      <label class="btn btn-outline-danger w-100" for="btn-check-765-outlined">Completado</label>
+                  </div>
+              </div>
+          </div>
+      </div>
+      
+      <div class="col-6 col-md-3 mt-2">
+          <div class="card h-100">
+              <img src="../img/libre/mirador.jpg" class="card-img-top" alt="..." style="height: 200px; object-fit: cover;">
+              <div class="card-body d-flex flex-column">
+                  <h5 class="card-title">Ir a un mirador</h5>
+                  <div class="d-flex"> 
+                      <a class="btn btn-sm rounded-5 btn-danger mx-2">17</a>
+                      <input type="checkbox" class="btn-check" id="btn-check-54-outlined" autocomplete="on">
+                      <label class="btn btn-outline-danger w-100" for="btn-check-54-outlined">Completado</label>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="col-6 col-md-3 mt-2">
+          <div class="card h-100">
+              <img src="../img/libre/zoologico.jpg" class="card-img-top" alt="..." style="height: 200px; object-fit: cover;">
+              <div class="card-body d-flex flex-column">
+                  <h5 class="card-title">Ir a un zoológico</h5>
+                  <div class="d-flex"> 
+                      <a class="btn btn-sm rounded-5 btn-danger mx-2">18</a>
+                      <input type="checkbox" class="btn-check" id="btn-check-6-outlined" autocomplete="on">
+                      <label class="btn btn-outline-danger w-100" for="btn-check-6-outlined">Completado</label>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="col-6 col-md-3 mt-2">
+          <div class="card h-100">
+              <img src="../img/sociales/compras.jpg" class="card-img-top" alt="..." style="height: 200px; object-fit: cover;">
+              <div class="card-body d-flex flex-column">
+                  <h5 class="card-title">Ir de compras</h5>
+                  <div class="d-flex"> 
+                      <a class="btn btn-sm rounded-5 btn-danger mx-2">19</a>
+                      <input type="checkbox" class="btn-check" id="btn-check-9-outlined" autocomplete="on">
+                      <label class="btn btn-outline-danger w-100" for="btn-check-9-outlined">Completado</label>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="col-6 col-md-3 mt-2">
+          <div class="card h-100">
+              <img src="../img/libre/remar.jpg" class="card-img-top" alt="..." style="height: 200px; object-fit: cover;">
+              <div class="card-body d-flex flex-column">
+                  <h5 class="card-title">Ir a remar o pescar</h5>
+                  <div class="d-flex"> 
+                      <a class="btn btn-sm rounded-5 btn-danger mx-2">20</a>
+                      <input type="checkbox" class="btn-check" id="btn-check-7-outlined" autocomplete="on">
+                      <label class="btn btn-outline-danger w-100" for="btn-check-7-outlined">Completado</label>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="col-6 col-md-3 mt-2">
+          <div class="card h-100">
+              <img src="../img/culturales/tour.jpg" class="card-img-top" alt="..." style="height: 200px; object-fit: cover;">
+              <div class="card-body d-flex flex-column">
+                  <h5 class="card-title">Ir a un tour</h5>
+                  <div class="d-flex"> 
+                      <a class="btn btn-sm rounded-5 btn-danger mx-2">21</a>
+                      <input type="checkbox" class="btn-check" id="btn-check-2-outlined" autocomplete="on">
+                      <label class="btn btn-outline-danger w-100" for="btn-check-2-outlined">Completado</label>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="col-6 col-md-3 mt-2">
+          <div class="card h-100">
+              <img src="../img/entretenimiento/circo.jpg" class="card-img-top" alt="..." style="height: 200px; object-fit: cover;">
+              <div class="card-body d-flex flex-column">
+                  <h5 class="card-title">Ir a un circo</h5>
+                  <div class="d-flex"> 
+                      <a class="btn btn-sm rounded-5 btn-danger mx-2">22</a>
+                      <input type="checkbox" class="btn-check" id="btn-check-8-outlined" autocomplete="on">
+                      <label class="btn btn-outline-danger w-100" for="btn-check-8-outlined">Completado</label>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="col-6 col-md-3 mt-2">
+          <div class="card h-100">
+              <img src="../img/sociales/fiesta.jpg" class="card-img-top" alt="..." style="height: 200px; object-fit: cover;">
+              <div class="card-body d-flex flex-column">
+                  <h5 class="card-title">Ir a una fiesta</h5>
+                  <div class="d-flex"> 
+                      <a class="btn btn-sm rounded-5 btn-danger mx-2">23</a>
+                      <input type="checkbox" class="btn-check" id="btn-check-1-outlined" autocomplete="on">
+                      <label class="btn btn-outline-danger w-100" for="btn-check-1-outlined">Completado</label>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="col-6 col-md-3 mt-2">
+          <div class="card h-100">
+              <img src="../img/sociales/nacimiento.jpg" class="card-img-top" alt="..." style="height: 200px; object-fit: cover;">
+              <div class="card-body d-flex flex-column">
+                  <h5 class="card-title">Ir a un nacimiento navideño</h5>
+                  <div class="d-flex"> 
+                      <a class="btn btn-sm rounded-5 btn-danger mx-2">24</a>
+                      <input type="checkbox" class="btn-check" id="btn-check-2-outlined" autocomplete="on">
+                      <label class="btn btn-outline-danger w-100" for="btn-check-2-outlined">Completado</label>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="col-6 col-md-3 mt-2">
+          <div class="card h-100">
+              <img src="../img/gastronomica/helado.jpg" class="card-img-top" alt="..." style="height: 200px; object-fit: cover;">
+              <div class="card-body d-flex flex-column">
+                  <h5 class="card-title">Ir por un helado</h5>
+                  <div class="d-flex"> 
+                      <a class="btn btn-sm rounded-5 btn-danger mx-2">25</a>
+                      <input type="checkbox" class="btn-check" id="btn-check-14-outlined" autocomplete="on">
+                      <label class="btn btn-outline-danger w-100" for="btn-check-14-outlined">Completado</label>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="col-6 col-md-3 mt-2">
+          <div class="card h-100">
+              <img src="../img/sociales/cumpleaños.jpg" class="card-img-top" alt="..." style="height: 200px; object-fit: cover;">
+              <div class="card-body d-flex flex-column">
+                  <h5 class="card-title">Ir a un cumpleaños</h5>
+                  <div class="d-flex"> 
+                      <a class="btn btn-sm rounded-5 btn-danger mx-2">26</a>
+                      <input type="checkbox" class="btn-check" id="btn-check-3-outlined" autocomplete="on">
+                      <label class="btn btn-outline-danger w-100" for="btn-check-3-outlined">Completado</label>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="col-6 col-md-3 mt-2">
+          <div class="card h-100">
+              <img src="../img/sociales/baby.jpg" class="card-img-top" alt="..." style="height: 200px; object-fit: cover;">
+              <div class="card-body d-flex flex-column">
+                  <h5 class="card-title">Ir a un baby shower</h5>
+                  <div class="d-flex"> 
+                      <a class="btn btn-sm rounded-5 btn-danger mx-2">27</a>
+                      <input type="checkbox" class="btn-check" id="btn-check-4-outlined" autocomplete="on">
+                      <label class="btn btn-outline-danger w-100" for="btn-check-4-outlined">Completado</label>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="col-6 col-md-3 mt-2">
+          <div class="card h-100">
+              <img src="../img/sociales/boda.jpg" class="card-img-top" alt="..." style="height: 200px; object-fit: cover;">
+              <div class="card-body d-flex flex-column">
+                  <h5 class="card-title">Ir a una boda</h5>
+                  <div class="d-flex"> 
+                      <a class="btn btn-sm rounded-5 btn-danger mx-2">28</a>
+                      <input type="checkbox" class="btn-check" id="btn-check-5-outlined" autocomplete="on">
+                      <label class="btn btn-outline-danger w-100" for="btn-check-5-outlined">Completado</label>
+                  </div>
+              </div>
+          </div>
+      </div>
+      
+      <div class="col-6 col-md-3 mt-2">
+          <div class="card h-100">
+              <img src="../img/libre/cascada.jpg" class="card-img-top" alt="..." style="height: 200px; object-fit: cover;">
+              <div class="card-body d-flex flex-column">
+                  <h5 class="card-title">Ir a una cascada</h5>
+                  <div class="d-flex"> 
+                      <a class="btn btn-sm rounded-5 btn-danger mx-2">29</a>
+                      <input type="checkbox" class="btn-check" id="btn-check-8-outlined" autocomplete="on">
+                      <label class="btn btn-outline-danger w-100" for="btn-check-8-outlined">Completado</label>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="col-6 col-md-3 mt-2">
+          <div class="card h-100">
+              <img src="../img/sociales/dulces.jpg" class="card-img-top" alt="..." style="height: 200px; object-fit: cover;">
+              <div class="card-body d-flex flex-column">
+                  <h5 class="card-title">Ir a pedir dulces</h5>
+                  <div class="d-flex"> 
+                      <a class="btn btn-sm rounded-5 btn-danger mx-2">30</a>
+                      <input type="checkbox" class="btn-check" id="btn-check-10-outlined" autocomplete="on">
+                      <label class="btn btn-outline-danger w-100" for="btn-check-10-outlined">Completado</label>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="col-6 col-md-3 mt-2">
+          <div class="card h-100">
+              <img src="../img/gastronomica/cocinar.jpg" class="card-img-top" alt="..." style="height: 200px; object-fit: cover;">
+              <div class="card-body d-flex flex-column">
+                  <h5 class="card-title">Cocinar juntos</h5>
+                  <div class="d-flex"> 
+                      <a class="btn btn-sm rounded-5 btn-danger mx-2">31</a>
+                      <input type="checkbox" class="btn-check" id="btn-check-6-outlined" autocomplete="on">
+                      <label class="btn btn-outline-danger w-100" for="btn-check-6-outlined">Completado</label>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="col-6 col-md-3 mt-2">
+          <div class="card h-100">
+              <img src="../img/libre/acampar.jpg" class="card-img-top" alt="..." style="height: 200px; object-fit: cover;">
+              <div class="card-body d-flex flex-column">
+                  <h5 class="card-title">Ir a acampar</h5>
+                  <div class="d-flex"> 
+                      <a class="btn btn-sm rounded-5 btn-danger mx-2">32</a>
+                      <input type="checkbox" class="btn-check" id="btn-check-9-outlined" autocomplete="on">
+                      <label class="btn btn-outline-danger w-100" for="btn-check-9-outlined">Completado</label>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="col-6 col-md-3 mt-2">
+          <div class="card h-100">
+              <img src="../img/libre/caminar.jpg" class="card-img-top" alt="..." style="height: 200px; object-fit: cover;">
+              <div class="card-body d-flex flex-column">
+                  <h5 class="card-title">Caminar bajo la lluvia</h5>
+                  <div class="d-flex"> 
+                      <a class="btn btn-sm rounded-5 btn-danger mx-2">33</a>
+                      <input type="checkbox" class="btn-check" id="btn-check-10-outlined" autocomplete="on">
+                      <label class="btn btn-outline-danger w-100" for="btn-check-10-outlined">Completado</label>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="col-6 col-md-3 mt-2">
+          <div class="card h-100">
+              <img src="../img/libre/atardecer.jpg" class="card-img-top" alt="..." style="height: 200px; object-fit: cover;">
+              <div class="card-body d-flex flex-column">
+                  <h5 class="card-title">Ver un atardecer</h5>
+                  <div class="d-flex"> 
+                      <a class="btn btn-sm rounded-5 btn-danger mx-2">34</a>
+                      <input type="checkbox" class="btn-check" id="btn-check-11-outlined" autocomplete="on">
+                      <label class="btn btn-outline-danger w-100" for="btn-check-11-outlined">Completado</label>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="col-6 col-md-3 mt-2">
+          <div class="card h-100">
+              <img src="../img/entretenimiento/pelicula.jpg" class="card-img-top" alt="..." style="height: 200px; object-fit: cover;">
+              <div class="card-body d-flex flex-column">
+                  <h5 class="card-title">Ver una película</h5>
+                  <div class="d-flex"> 
+                      <a class="btn btn-sm rounded-5 btn-danger mx-2">35</a>
+                      <input type="checkbox" class="btn-check" id="btn-check-9-outlined" autocomplete="on">
+                      <label class="btn btn-outline-danger w-100" for="btn-check-9-outlined">Completado</label>
+                  </div>
+              </div>
+          </div>
+      </div>
+      
+      <div class="col-6 col-md-3 mt-2">
+          <div class="card h-100">
+              <img src="../img/gastronomica/desayunar.jpg" class="card-img-top" alt="..." style="height: 200px; object-fit: cover;">
+              <div class="card-body d-flex flex-column">
+                  <h5 class="card-title">Desayunar juntos</h5>
+                  <div class="d-flex"> 
+                      <a class="btn btn-sm rounded-5 btn-danger mx-2">36</a>
+                      <input type="checkbox" class="btn-check" id="btn-check-7-outlined" autocomplete="on">
+                      <label class="btn btn-outline-danger w-100" for="btn-check-7-outlined">Completado</label>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="col-6 col-md-3 mt-2">
+          <div class="card h-100">
+              <img src="../img/entretenimiento/serie.jpg" class="card-img-top" alt="..." style="height: 200px; object-fit: cover;">
+              <div class="card-body d-flex flex-column">
+                  <h5 class="card-title">Ver una serie completa</h5>
+                  <div class="d-flex"> 
+                      <a class="btn btn-sm rounded-5 btn-danger mx-2">37</a>
+                      <input type="checkbox" class="btn-check" id="btn-check-10-outlined" autocomplete="on">
+                      <label class="btn btn-outline-danger w-100" for="btn-check-10-outlined">Completado</label>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="col-6 col-md-3 mt-2">
+          <div class="card h-100">
+              <img src="../img/culturales/leer.jpg" class="card-img-top" alt="..." style="height: 200px; object-fit: cover;">
+              <div class="card-body d-flex flex-column">
+                  <h5 class="card-title">Leer un libro</h5>
+                  <div class="d-flex"> 
+                      <a class="btn btn-sm rounded-5 btn-danger mx-2">38</a>
+                      <input type="checkbox" class="btn-check" id="btn-check-3-outlined" autocomplete="on">
+                      <label class="btn btn-outline-danger w-100" for="btn-check-3-outlined">Completado</label>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="col-6 col-md-3 mt-2">
+          <div class="card h-100">
+              <img src="../img/creativas/origami.jpg" class="card-img-top" alt="..." style="height: 200px; object-fit: cover;">
+              <div class="card-body d-flex flex-column">
+                  <h5 class="card-title">Hacer origami</h5>
+                  <div class="d-flex"> 
+                      <a class="btn btn-sm rounded-5 btn-danger mx-2">39</a>
+                      <input type="checkbox" class="btn-check" id="btn-check-3-outlined" autocomplete="on">
+                      <label class="btn btn-outline-danger w-100" for="btn-check-3-outlined">Completado</label>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="col-6 col-md-3 mt-2">
+          <div class="card h-100">
+              <img src="../img/creativas/pared.jpg" class="card-img-top" alt="..." style="height: 200px; object-fit: cover;">
+              <div class="card-body d-flex flex-column">
+                  <h5 class="card-title">Pintar una pared</h5>
+                  <div class="d-flex"> 
+                      <a class="btn btn-sm rounded-5 btn-danger mx-2">40</a>
+                      <input type="checkbox" class="btn-check" id="btn-check-4-outlined" autocomplete="on">
+                      <label class="btn btn-outline-danger w-100" for="btn-check-4-outlined">Completado</label>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="col-6 col-md-3 mt-2">
+          <div class="card h-100">
+              <img src="../img/creativas/dibujar.jpg" class="card-img-top" alt="..." style="height: 200px; object-fit: cover;">
+              <div class="card-body d-flex flex-column">
+                  <h5 class="card-title">Dibujar algo</h5>
+                  <div class="d-flex"> 
+                      <a class="btn btn-sm rounded-5 btn-danger mx-2">41</a>
+                      <input type="checkbox" class="btn-check" id="btn-check-5-outlined" autocomplete="on">
+                      <label class="btn btn-outline-danger w-100" for="btn-check-5-outlined">Completado</label>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="col-6 col-md-3 mt-2">
+          <div class="card h-100">
+              <img src="../img/creativas/cultivar.jpg" class="card-img-top" alt="..." style="height: 200px; object-fit: cover;">
+              <div class="card-body d-flex flex-column">
+                  <h5 class="card-title">Cultivar una planta</h5>
+                  <div class="d-flex"> 
+                      <a class="btn btn-sm rounded-5 btn-danger mx-2">42</a>
+                      <input type="checkbox" class="btn-check" id="btn-check-11-outlined" autocomplete="on">
+                      <label class="btn btn-outline-danger w-100" for="btn-check-11-outlined">Completado</label>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="col-6 col-md-3 mt-2">
+          <div class="card h-100">
+              <img src="../img/creativas/lego.jpg" class="card-img-top" alt="..." style="height: 200px; object-fit: cover;">
+              <div class="card-body d-flex flex-column">
+                  <h5 class="card-title">Armar un Lego</h5>
+                  <div class="d-flex"> 
+                      <a class="btn btn-sm rounded-5 btn-danger mx-2">43</a>
+                      <input type="checkbox" class="btn-check" id="btn-check-6-outlined" autocomplete="on">
+                      <label class="btn btn-outline-danger w-100" for="btn-check-6-outlined">Completado</label>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="col-6 col-md-3 mt-2">
+          <div class="card h-100">
+              <img src="../img/domesticas/vestir.jpeg" class="card-img-top" alt="..." style="height: 200px; object-fit: cover;">
+              <div class="card-body d-flex flex-column">
+                  <h5 class="card-title">Vestir iguales</h5>
+                  <div class="d-flex"> 
+                      <a class="btn btn-sm rounded-5 btn-danger mx-2">44</a>
+                      <input type="checkbox" class="btn-check" id="btn-check-4-outlined" autocomplete="on">
+                      <label class="btn btn-outline-danger w-100" for="btn-check-4-outlined">Completado</label>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="col-6 col-md-3 mt-2">
+          <div class="card h-100">
+              <img src="../img/domesticas/disfraz.jpg" class="card-img-top" alt="..." style="height: 200px; object-fit: cover;">
+              <div class="card-body d-flex flex-column">
+                  <h5 class="card-title">Disfraz en pareja</h5>
+                  <div class="d-flex"> 
+                      <a class="btn btn-sm rounded-5 btn-danger mx-2">45</a>
+                      <input type="checkbox" class="btn-check" id="btn-check-6-outlined" autocomplete="on">
+                      <label class="btn btn-outline-danger w-100" for="btn-check-6-outlined">Completado</label>
+                  </div>
+              </div>
+          </div>
+      </div>
+      
+      <div class="col-6 col-md-3 mt-2">
+          <div class="card h-100">
+              <img src="../img/entretenimiento/videojuego.jpg" class="card-img-top" alt="..." style="height: 200px; object-fit: cover;">
+              <div class="card-body d-flex flex-column">
+                  <h5 class="card-title">Jugar un videojuego</h5>
+                  <div class="d-flex"> 
+                      <a class="btn btn-sm rounded-5 btn-danger mx-2">46</a>
+                      <input type="checkbox" class="btn-check" id="btn-check-3-outlined" autocomplete="on">
+                      <label class="btn btn-outline-danger w-100" for="btn-check-3-outlined">Completado</label>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="col-6 col-md-3 mt-2">
+          <div class="card h-100">
+              <img src="../img/domesticas/estudiar.JPG" class="card-img-top" alt="..." style="height: 200px; object-fit: cover;">
+              <div class="card-body d-flex flex-column">
+                  <h5 class="card-title">Estudiar juntos </h5>
+                  <div class="d-flex"> 
+                      <a class="btn btn-sm rounded-5 btn-danger mx-2">47</a>
+                      <input type="checkbox" class="btn-check" id="btn-check-7-outlined" autocomplete="on">
+                      <label class="btn btn-outline-danger w-100" for="btn-check-7-outlined">Completado</label>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="col-6 col-md-3 mt-2">
+          <div class="card h-100">
+              <img src="../img/relajacion/facial.jpg" class="card-img-top" alt="..." style="height: 200px; object-fit: cover;">
+              <div class="card-body d-flex flex-column">
+                  <h5 class="card-title">Hacer una limpieza facial</h5>
+                  <div class="d-flex"> 
+                      <a class="btn btn-sm rounded-5 btn-danger mx-2">48</a>
+                      <input type="checkbox" class="btn-check" id="btn-check-1-outlined" autocomplete="on">
+                      <label class="btn btn-outline-danger w-100" for="btn-check-1-outlined">Completado</label>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="col-6 col-md-3 mt-2">
+          <div class="card h-100">
+              <img src="../img/relajacion/bailar.jpg" class="card-img-top" alt="..." style="height: 200px; object-fit: cover;">
+              <div class="card-body d-flex flex-column">
+                  <h5 class="card-title">Bailar</h5>
+                  <div class="d-flex"> 
+                      <a class="btn btn-sm rounded-5 btn-danger mx-2">49</a>
+                      <input type="checkbox" class="btn-check" id="btn-check-3-outlined" autocomplete="on">
+                      <label class="btn btn-outline-danger w-100" for="btn-check-3-outlined">Completado</label>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="col-6 col-md-3 mt-2">
+          <div class="card h-100">
+              <img src="../img/culturales/documental.jpg" class="card-img-top" alt="..." style="height: 200px; object-fit: cover;">
+              <div class="card-body d-flex flex-column">
+                  <h5 class="card-title">Ver un documental</h5>
+                  <div class="d-flex"> 
+                      <a class="btn btn-sm rounded-5 btn-danger mx-2">50</a>
+                      <input type="checkbox" class="btn-check" id="btn-check-4-outlined" autocomplete="on">
+                      <label class="btn btn-outline-danger w-100" for="btn-check-4-outlined">Completado</label>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="col-6 col-md-3 mt-2">
+          <div class="card h-100">
+              <img src="../img/relajacion/musica.jpg" class="card-img-top" alt="..." style="height: 200px; object-fit: cover;">
+              <div class="card-body d-flex flex-column">
+                  <h5 class="card-title">Escuchar música</h5>
+                  <div class="d-flex"> 
+                      <a class="btn btn-sm rounded-5 btn-danger mx-2">51</a>
+                      <input type="checkbox" class="btn-check" id="btn-check-4-outlined" autocomplete="on">
+                      <label class="btn btn-outline-danger w-100" for="btn-check-4-outlined">Completado</label>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="col-6 col-md-3 mt-2">
+          <div class="card h-100">
+              <img src="../img/domesticas/mueble.jpg" class="card-img-top" alt="..." style="height: 200px; object-fit: cover;">
+              <div class="card-body d-flex flex-column">
+                  <h5 class="card-title">Armar un mueble</h5>
+                  <div class="d-flex"> 
+                      <a class="btn btn-sm rounded-5 btn-danger mx-2">52</a>
+                      <input type="checkbox" class="btn-check" id="btn-check-1-outlined" autocomplete="on">
+                      <label class="btn btn-outline-danger w-100" for="btn-check-1-outlined">Completado</label>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="col-6 col-md-3 mt-2">
+          <div class="card h-100">
+              <img src="../img/creativas/cometa.jpg" class="card-img-top" alt="..." style="height: 200px; object-fit: cover;">
+              <div class="card-body d-flex flex-column">
+                  <h5 class="card-title">Volar un cometa</h5>
+                  <div class="d-flex"> 
+                      <a class="btn btn-sm rounded-5 btn-danger mx-2">53</a>
+                      <input type="checkbox" class="btn-check" id="btn-check-10-outlined" autocomplete="on">
+                      <label class="btn btn-outline-danger w-100" for="btn-check-10-outlined">Completado</label>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="col-6 col-md-3 mt-2">
+          <div class="card h-100">
+              <img src="../img/relajacion/guerra.jpg" class="card-img-top" alt="..." style="height: 200px; object-fit: cover;">
+              <div class="card-body d-flex flex-column">
+                  <h5 class="card-title">Guerra de almohadas</h5>
+                  <div class="d-flex"> 
+                      <a class="btn btn-sm rounded-5 btn-danger mx-2">54</a>
+                      <input type="checkbox" class="btn-check" id="btn-check-7-outlined" autocomplete="on">
+                      <label class="btn btn-outline-danger w-100" for="btn-check-7-outlined">Completado</label>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="col-6 col-md-3 mt-2">
+          <div class="card h-100">
+              <img src="../img/sociales/pijamada.jpg" class="card-img-top" alt="..." style="height: 200px; object-fit: cover;">
+              <div class="card-body d-flex flex-column">
+                  <h5 class="card-title">Pijamada</h5>
+                  <div class="d-flex"> 
+                      <a class="btn btn-sm rounded-5 btn-danger mx-2">55</a>
+                      <input type="checkbox" class="btn-check" id="btn-check-8-outlined" autocomplete="on">
+                      <label class="btn btn-outline-danger w-100" for="btn-check-8-outlined">Completado</label>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="col-6 col-md-3 mt-2">
+          <div class="card h-100">
+              <img src="../img/libre/estrellas.jpg" class="card-img-top" alt="..." style="height: 200px; object-fit: cover;">
+              <div class="card-body d-flex flex-column">
+                  <h5 class="card-title">Observar las estrellas</h5>
+                  <div class="d-flex"> 
+                      <a class="btn btn-sm rounded-5 btn-danger mx-2">56</a>
+                      <input type="checkbox" class="btn-check" id="btn-check-12-outlined" autocomplete="on">
+                      <label class="btn btn-outline-danger w-100" for="btn-check-12-outlined">Completado</label>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="col-6 col-md-3 mt-2">
+          <div class="card h-100">
+              <img src="../img/sociales/tematica.jpg" class="card-img-top" alt="..." style="height: 200px; object-fit: cover;">
+              <div class="card-body d-flex flex-column">
+                  <h5 class="card-title">Hacer una cita con temática</h5>
+                  <div class="d-flex"> 
+                      <a class="btn btn-sm rounded-5 btn-danger mx-2">57</a>
+                      <input type="checkbox" class="btn-check" id="btn-check-11-outlined" autocomplete="on">
+                      <label class="btn btn-outline-danger w-100" for="btn-check-11-outlined">Completado</label>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="col-6 col-md-3 mt-2">
+          <div class="card h-100">
+              <img src="../img/sociales/pasear.jpg" class="card-img-top" alt="..." style="height: 200px; object-fit: cover;">
+              <div class="card-body d-flex flex-column">
+                  <h5 class="card-title">Pasear a nuestras mascotas</h5>
+                  <div class="d-flex"> 
+                      <a class="btn btn-sm rounded-5 btn-danger mx-2">58</a>
+                      <input type="checkbox" class="btn-check" id="btn-check-12-outlined" autocomplete="on">
+                      <label class="btn btn-outline-danger w-100" for="btn-check-12-outlined">Completado</label>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="col-6 col-md-3 mt-2">
+          <div class="card h-100">
+              <img src="../img/libre/salir.jpg" class="card-img-top" alt="..." style="height: 200px; object-fit: cover;">
+              <div class="card-body d-flex flex-column">
+                  <h5 class="card-title">Salir a caminar</h5>
+                  <div class="d-flex"> 
+                      <a class="btn btn-sm rounded-5 btn-danger mx-2">59</a>
+                      <input type="checkbox" class="btn-check" id="btn-check-13-outlined" autocomplete="on">
+                      <label class="btn btn-outline-danger w-100" for="btn-check-13-outlined">Completado</label>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="col-6 col-md-3 mt-2">
+          <div class="card h-100">
+              <img src="../img/libre/fogata.jpg" class="card-img-top" alt="..." style="height: 200px; object-fit: cover;">
+              <div class="card-body d-flex flex-column">
+                  <h5 class="card-title">Hacer una fogata</h5>
+                  <div class="d-flex"> 
+                      <a class="btn btn-sm rounded-5 btn-danger mx-2">60</a>
+                      <input type="checkbox" class="btn-check" id="btn-check-14-outlined" autocomplete="on">
+                      <label class="btn btn-outline-danger w-100" for="btn-check-14-outlined">Completado</label>
+                  </div>
+              </div>
+          </div>
+      </div>
+      
+      <div class="col-6 col-md-3 mt-2">
+          <div class="card h-100">
+              <img src="../img/domesticas/sesion.jpg" class="card-img-top" alt="..." style="height: 200px; object-fit: cover;">
+              <div class="card-body d-flex flex-column">
+                  <h5 class="card-title">Hacer una sesión de fotos</h5>
+                  <div class="d-flex"> 
+                      <a class="btn btn-sm rounded-5 btn-danger mx-2">61</a>
+                      <input type="checkbox" class="btn-check" id="btn-check-3-outlined" autocomplete="on">
+                      <label class="btn btn-outline-danger w-100" for="btn-check-3-outlined">Completado</label>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="col-6 col-md-3 mt-2">
+          <div class="card h-100">
+              <img src="../img/creativas/manualidad.jpg" class="card-img-top" alt="..." style="height: 200px; object-fit: cover;">
+              <div class="card-body d-flex flex-column">
+                  <h5 class="card-title">Hacer una manualidad</h5>
+                  <div class="d-flex"> 
+                      <a class="btn btn-sm rounded-5 btn-danger mx-2">62</a>
+                      <input type="checkbox" class="btn-check" id="btn-check-7-outlined" autocomplete="on">
+                      <label class="btn btn-outline-danger w-100" for="btn-check-7-outlined">Completado</label>
+                  </div>
+              </div>
+          </div>
+      </div>
+      
+      <div class="col-6 col-md-3 mt-2">
+          <div class="card h-100">
+              <img src="../img/entretenimiento/mesa.jpg" class="card-img-top" alt="..." style="height: 200px; object-fit: cover;">
+              <div class="card-body d-flex flex-column">
+                  <h5 class="card-title">Jugar un juego de mesa</h5>
+                  <div class="d-flex"> 
+                      <a class="btn btn-sm rounded-5 btn-danger mx-2">63</a>
+                      <input type="checkbox" class="btn-check" id="btn-check-4-outlined" autocomplete="on">
+                      <label class="btn btn-outline-danger w-100" for="btn-check-4-outlined">Completado</label>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="col-6 col-md-3 mt-2">
+          <div class="card h-100">
+              <img src="../img/creativas/globo.jpg" class="card-img-top" alt="..." style="height: 200px; object-fit: cover;">
+              <div class="card-body d-flex flex-column">
+                  <h5 class="card-title">Escribir un deseo en un globo</h5>
+                  <div class="d-flex"> 
+                      <a class="btn btn-sm rounded-5 btn-danger mx-2">64</a>
+                      <input type="checkbox" class="btn-check" id="btn-check-8-outlined" autocomplete="on">
+                      <label class="btn btn-outline-danger w-100" for="btn-check-8-outlined">Completado</label>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="col-6 col-md-3 mt-2">
+          <div class="card h-100">
+              <img src="../img/gastronomica/donas.jpg" class="card-img-top" alt="..." style="height: 200px; object-fit: cover;">
+              <div class="card-body d-flex flex-column">
+                  <h5 class="card-title">Comer donas</h5>
+                  <div class="d-flex"> 
+                      <a class="btn btn-sm rounded-5 btn-danger mx-2">65</a>
+                      <input type="checkbox" class="btn-check" id="btn-check-8-outlined" autocomplete="on">
+                      <label class="btn btn-outline-danger w-100" for="btn-check-8-outlined">Completado</label>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="col-6 col-md-3 mt-2">
+          <div class="card h-100">
+              <img src="../img/gastronomica/pizza.jpg" class="card-img-top" alt="..." style="height: 200px; object-fit: cover;">
+              <div class="card-body d-flex flex-column">
+                  <h5 class="card-title">Pedir pizza</h5>
+                  <div class="d-flex"> 
+                      <a class="btn btn-sm rounded-5 btn-danger mx-2">66</a>
+                      <input type="checkbox" class="btn-check" id="btn-check-9-outlined" autocomplete="on">
+                      <label class="btn btn-outline-danger w-100" for="btn-check-9-outlined">Completado</label>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="col-6 col-md-3 mt-2">
+          <div class="card h-100">
+              <img src="../img/gastronomica/buffet.jpg" class="card-img-top" alt="..." style="height: 200px; object-fit: cover;">
+              <div class="card-body d-flex flex-column">
+                  <h5 class="card-title">Ir a un buffet</h5>
+                  <div class="d-flex"> 
+                      <a class="btn btn-sm rounded-5 btn-danger mx-2">67</a>
+                      <input type="checkbox" class="btn-check" id="btn-check-10-outlined" autocomplete="on">
+                      <label class="btn btn-outline-danger w-100" for="btn-check-10-outlined">Completado</label>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="col-6 col-md-3 mt-2">
+          <div class="card h-100">
+              <img src="../img/domesticas/ahorro.jpg" class="card-img-top" alt="..." style="height: 200px; object-fit: cover;">
+              <div class="card-body d-flex flex-column">
+                  <h5 class="card-title">Hacer una caja de ahorro</h5>
+                  <div class="d-flex"> 
+                      <a class="btn btn-sm rounded-5 btn-danger mx-2">68</a>
+                      <input type="checkbox" class="btn-check" id="btn-check-2-outlined" autocomplete="on">
+                      <label class="btn btn-outline-danger w-100" for="btn-check-2-outlined">Completado</label>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="col-6 col-md-3 mt-2">
+          <div class="card h-100">
+              <img src="../img/libre/luna.jpg" class="card-img-top" alt="..." style="height: 200px; object-fit: cover;">
+              <div class="card-body d-flex flex-column">
+                  <h5 class="card-title">Ver la luna</h5>
+                  <div class="d-flex"> 
+                      <a class="btn btn-sm rounded-5 btn-danger mx-2">69</a>
+                      <input type="checkbox" class="btn-check" id="btn-check-15-outlined" autocomplete="on">
+                      <label class="btn btn-outline-danger w-100" for="btn-check-15-outlined">Completado</label>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="col-6 col-md-3 mt-2">
+          <div class="card h-100">
+              <img src="../img/creativas/carta.jpg" class="card-img-top" alt="..." style="height: 200px; object-fit: cover;">
+              <div class="card-body d-flex flex-column">
+                  <h5 class="card-title">Hacer una carta</h5>
+                  <div class="d-flex"> 
+                      <a class="btn btn-sm rounded-5 btn-danger mx-2">70</a>
+                      <input type="checkbox" class="btn-check" id="btn-check-9-outlined" autocomplete="on">
+                      <label class="btn btn-outline-danger w-100" for="btn-check-9-outlined">Completado</label>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="col-6 col-md-3 mt-2">
+          <div class="card h-100">
+              <img src="../img/relajacion/tatuaje.jpg" class="card-img-top" alt="..." style="height: 200px; object-fit: cover;">
+              <div class="card-body d-flex flex-column">
+                  <h5 class="card-title">Hacernos un tatuaje</h5>
+                  <div class="d-flex"> 
+                      <a class="btn btn-sm rounded-5 btn-danger mx-2">71</a>
+                      <input type="checkbox" class="btn-check" id="btn-check-5-outlined" autocomplete="on">
+                      <label class="btn btn-outline-danger w-100" for="btn-check-5-outlined">Completado</label>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="col-6 col-md-3 mt-2">
+          <div class="card h-100">
+              <img src="../img/libre/pueblito.jpg" class="card-img-top" alt="..." style="height: 200px; object-fit: cover;">
+              <div class="card-body d-flex flex-column">
+                  <h5 class="card-title">Ir a un pueblito mágico</h5>
+                  <div class="d-flex"> 
+                      <a class="btn btn-sm rounded-5 btn-danger mx-2">72</a>
+                      <input type="checkbox" class="btn-check" id="btn-check-16-outlined" autocomplete="on">
+                      <label class="btn btn-outline-danger w-100" for="btn-check-16-outlined">Completado</label>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="col-6 col-md-3 mt-2">
+          <div class="card h-100">
+              <img src="../img/relajacion/spa.jpg" class="card-img-top" alt="..." style="height: 200px; object-fit: cover;">
+              <div class="card-body d-flex flex-column">
+                  <h5 class="card-title">Ir a un spa</h5>
+                  <div class="d-flex"> 
+                      <a class="btn btn-sm rounded-5 btn-danger mx-2">73</a>
+                      <input type="checkbox" class="btn-check" id="btn-check-2-outlined" autocomplete="on">
+                      <label class="btn btn-outline-danger w-100" for="btn-check-2-outlined">Completado</label>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="col-6 col-md-3 mt-2">
+          <div class="card h-100">
+              <img src="../img/sociales/familiar.jpg" class="card-img-top" alt="..." style="height: 200px; object-fit: cover;">
+              <div class="card-body d-flex flex-column">
+                  <h5 class="card-title">Cena familiar</h5>
+                  <div class="d-flex"> 
+                      <a class="btn btn-sm rounded-5 btn-danger mx-2">74</a>
+                      <input type="checkbox" class="btn-check" id="btn-check-7-outlined" autocomplete="on">
+                      <label class="btn btn-outline-danger w-100" for="btn-check-7-outlined">Completado</label>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="col-6 col-md-3 mt-2">
+          <div class="card h-100">
+              <img src="../img/gastronomica/hamburguesas.jpg" class="card-img-top" alt="..." style="height: 200px; object-fit: cover;">
+              <div class="card-body d-flex flex-column">
+                  <h5 class="card-title">Ir por hamburguesas</h5>
+                  <div class="d-flex"> 
+                      <a class="btn btn-sm rounded-5 btn-danger mx-2">75</a>
+                      <input type="checkbox" class="btn-check" id="btn-check-11-outlined" autocomplete="on">
+                      <label class="btn btn-outline-danger w-100" for="btn-check-11-outlined">Completado</label>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="col-6 col-md-3 mt-2">
+          <div class="card h-100">
+              <img src="../img/sociales/paseo.jpg" class="card-img-top" alt="..." style="height: 200px; object-fit: cover;">
+              <div class="card-body d-flex flex-column">
+                  <h5 class="card-title">Un paseo familiar</h5>
+                  <div class="d-flex"> 
+                      <a class="btn btn-sm rounded-5 btn-danger mx-2">76</a>
+                      <input type="checkbox" class="btn-check" id="btn-check-15-outlined" autocomplete="on">
+                      <label class="btn btn-outline-danger w-100" for="btn-check-15-outlined">Completado</label>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="col-6 col-md-3 mt-2">
+          <div class="card h-100">
+              <img src="../img/sociales/avion.jpg" class="card-img-top" alt="..." style="height: 200px; object-fit: cover;">
+              <div class="card-body d-flex flex-column">
+                  <h5 class="card-title">Viajar en avión</h5>
+                  <div class="d-flex"> 
+                      <a class="btn btn-sm rounded-5 btn-danger mx-2">77</a>
+                      <input type="checkbox" class="btn-check" id="btn-check-13-outlined" autocomplete="on">
+                      <label class="btn btn-outline-danger w-100" for="btn-check-13-outlined">Completado</label>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="col-6 col-md-3 mt-2">
+          <div class="card h-100">
+              <img src="../img/sociales/amigos.jpg" class="card-img-top" alt="..." style="height: 200px; object-fit: cover;">
+              <div class="card-body d-flex flex-column">
+                  <h5 class="card-title">Salir con amigos</h5>
+                  <div class="d-flex"> 
+                      <a class="btn btn-sm rounded-5 btn-danger mx-2">78</a>
+                      <input type="checkbox" class="btn-check" id="btn-check-6-outlined" autocomplete="on">
+                      <label class="btn btn-outline-danger w-100" for="btn-check-6-outlined">Completado</label>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="col-6 col-md-3 mt-2">
+          <div class="card h-100">
+              <img src="../img/gastronomica/hot.jpg" class="card-img-top" alt="..." style="height: 200px; object-fit: cover;">
+              <div class="card-body d-flex flex-column">
+                  <h5 class="card-title">Hacer hot cakes</h5>
+                  <div class="d-flex"> 
+                      <a class="btn btn-sm rounded-5 btn-danger mx-2">79</a>
+                      <input type="checkbox" class="btn-check" id="btn-check-12-outlined" autocomplete="on">
+                      <label class="btn btn-outline-danger w-100" for="btn-check-12-outlined">Completado</label>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="col-6 col-md-3 mt-2">
+          <div class="card h-100">
+              <img src="../img/gastronomica/tacos.jpg" class="card-img-top" alt="..." style="height: 200px; object-fit: cover;">
+              <div class="card-body d-flex flex-column">
+                  <h5 class="card-title">Ir a cenar tacos</h5>
+                  <div class="d-flex"> 
+                      <a class="btn btn-sm rounded-5 btn-danger mx-2">80</a>
+                      <input type="checkbox" class="btn-check" id="btn-check-13-outlined" autocomplete="on">
+                      <label class="btn btn-outline-danger w-100" for="btn-check-13-outlined">Completado</label>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="col-6 col-md-3 mt-2">
+          <div class="card h-100">
+              <img src="../img/libre/six.jpg" class="card-img-top" alt="..." style="height: 200px; object-fit: cover;">
+              <div class="card-body d-flex flex-column">
+                  <h5 class="card-title">Ir a Six Flags</h5>
+                  <div class="d-flex"> 
+                      <a class="btn btn-sm rounded-5 btn-danger mx-2">81</a>
+                      <input type="checkbox" class="btn-check" id="btn-check-17-outlined" autocomplete="on">
+                      <label class="btn btn-outline-danger w-100" for="btn-check-17-outlined">Completado</label>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="col-6 col-md-3 mt-2">
+          <div class="card h-100">
+              <img src="../img/libre/feria.jpg" class="card-img-top" alt="..." style="height: 200px; object-fit: cover;">
+              <div class="card-body d-flex flex-column">
+                  <h5 class="card-title">Ir a una feria</h5>
+                  <div class="d-flex"> 
+                      <a class="btn btn-sm rounded-5 btn-danger mx-2">82</a>
+                      <input type="checkbox" class="btn-check" id="btn-check-18-outlined" autocomplete="on">
+                      <label class="btn btn-outline-danger w-100" for="btn-check-18-outlined">Completado</label>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="col-6 col-md-3 mt-2">
+          <div class="card h-100">
+              <img src="../img/entretenimiento/peluches.jpg" class="card-img-top" alt="..." style="height: 200px; object-fit: cover;">
+              <div class="card-body d-flex flex-column">
+                  <h5 class="card-title">Sacar un peluche de una máquina</h5>
+                  <div class="d-flex"> 
+                      <a class="btn btn-sm rounded-5 btn-danger mx-2">83</a>
+                      <input type="checkbox" class="btn-check" id="btn-check-5-outlined" autocomplete="on">
+                      <label class="btn btn-outline-danger w-100" for="btn-check-5-outlined">Completado</label>
+                  </div>
+              </div>
+          </div>
+      </div>
+      
+      <div class="col-6 col-md-3 mt-2">
+          <div class="card h-100">
+              <img src="../img/libre/acuatico.jpg" class="card-img-top" alt="..." style="height: 200px; object-fit: cover;">
+              <div class="card-body d-flex flex-column">
+                  <h5 class="card-title">Ir a un parque acuático</h5>
+                  <div class="d-flex"> 
+                      <a class="btn btn-sm rounded-5 btn-danger mx-2">84</a>
+                      <input type="checkbox" class="btn-check" id="btn-check-19-outlined" autocomplete="on">
+                      <label class="btn btn-outline-danger w-100" for="btn-check-19-outlined">Completado</label>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="col-6 col-md-3 mt-2">
+          <div class="card h-100">
+              <img src="../img/entretenimiento/bolos.jpg" class="card-img-top" alt="..." style="height: 200px; object-fit: cover;">
+              <div class="card-body d-flex flex-column">
+                  <h5 class="card-title">Ir a jugar bolos</h5>
+                  <div class="d-flex"> 
+                      <a class="btn btn-sm rounded-5 btn-danger mx-2">85</a>
+                      <input type="checkbox" class="btn-check" id="btn-check-6-outlined" autocomplete="on">
+                      <label class="btn btn-outline-danger w-100" for="btn-check-6-outlined">Completado</label>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="col-6 col-md-3 mt-2">
+          <div class="card h-100">
+              <img src="../img/sociales/globos.jpg" class="card-img-top" alt="..." style="height: 200px; object-fit: cover;">
+              <div class="card-body d-flex flex-column">
+                  <h5 class="card-title">Guerra de globos de agua</h5>
+                  <div class="d-flex"> 
+                      <a class="btn btn-sm rounded-5 btn-danger mx-2">86</a>
+                      <input type="checkbox" class="btn-check" id="btn-check-14-outlined" autocomplete="on">
+                      <label class="btn btn-outline-danger w-100" for="btn-check-14-outlined">Completado</label>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="col-6 col-md-3 mt-2">
+          <div class="card h-100">
+              <img src="../img/libre/bicicleta.jpg" class="card-img-top" alt="..." style="height: 200px; object-fit: cover;">
+              <div class="card-body d-flex flex-column">
+                  <h5 class="card-title">Paseo nocturno en bicicleta</h5>
+                  <div class="d-flex"> 
+                      <a class="btn btn-sm rounded-5 btn-danger mx-2">87</a>
+                      <input type="checkbox" class="btn-check" id="btn-check-20-outlined" autocomplete="on">
+                      <label class="btn btn-outline-danger w-100" for="btn-check-20-outlined">Completado</label>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="col-6 col-md-3 mt-2">
+          <div class="card h-100">
+              <img src="../img/culturales/planetario.jpg" class="card-img-top" alt="..." style="height: 200px; object-fit: cover;">
+              <div class="card-body d-flex flex-column">
+                  <h5 class="card-title">Ir a un planetario</h5>
+                  <div class="d-flex"> 
+                      <a class="btn btn-sm rounded-5 btn-danger mx-2">88</a>
+                      <input type="checkbox" class="btn-check" id="btn-check-6-outlined" autocomplete="on">
+                      <label class="btn btn-outline-danger w-100" for="btn-check-6-outlined">Completado</label>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="col-6 col-md-3 mt-2">
+          <div class="card h-100">
+              <img src="../img/culturales/acuario.jpg" class="card-img-top" alt="..." style="height: 200px; object-fit: cover;">
+              <div class="card-body d-flex flex-column">
+                  <h5 class="card-title">Ir a un acuario</h5>
+                  <div class="d-flex"> 
+                      <a class="btn btn-sm rounded-5 btn-danger mx-2">89</a>
+                      <input type="checkbox" class="btn-check" id="btn-check-7-outlined" autocomplete="on">
+                      <label class="btn btn-outline-danger w-100" for="btn-check-7-outlined">Completado</label>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="col-6 col-md-3 mt-2">
+          <div class="card h-100">
+              <img src="../img/culturales/obra.jpg" class="card-img-top" alt="..." style="height: 200px; object-fit: cover;">
+              <div class="card-body d-flex flex-column">
+                  <h5 class="card-title">Ir a una obra de teatro</h5>
+                  <div class="d-flex"> 
+                      <a class="btn btn-sm rounded-5 btn-danger mx-2">90</a>
+                      <input type="checkbox" class="btn-check" id="btn-check-5-outlined" autocomplete="on">
+                      <label class="btn btn-outline-danger w-100" for="btn-check-5-outlined">Completado</label>
+                  </div>
+              </div>
+          </div>
+      </div>
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+    </div>
+</body>
+</html>
